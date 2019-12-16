@@ -26,7 +26,7 @@ if(isset($_POST['email'])){
 }
 
 if(isset($_POST['phone'])){
-    $phone = filter_var($_POST['phone']);
+    $phone = filter_var($_POST['phone'], FILTER_SANITIZE_STRING);
 }
 
 if(isset($_POST['subject'])){
@@ -43,7 +43,7 @@ $headers = [
 ];
 
 if(mail($recipient, $subject, $message, $headers)){
-    echo '<p> Thank you for you contact me, ' .$name.' you will get reply with 24 hours </p>';
+    echo '<p> Thank you for you contact me,' .$name.' you will get reply with 24 hours </p>';
 }else{
     echo '<p>We are sorry but the email did not go through</p>';
 }

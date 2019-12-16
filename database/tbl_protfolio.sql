@@ -38,12 +38,14 @@ CREATE TABLE `tbl_protfolio` (
 --
 
 INSERT INTO `tbl_protfolio` (`ID`, `Name`, `Type`, `Date`) VALUES
-(1, 'Royal Chickenix', 'Brand Visual Identity System', '17 July 2017'),
-(2, 'AiLi advertising', 'Creative poster', '15 Jan 2017'),
-(3, 'TRAA ', 'website', '01 Dec 2019'),
-(4, 'Wufushun marketing', 'Video', '04 Jan 2016'),
-(5, 'Bootcamp', 'website', '02 Oct 2019'),
-(6, 'Home Secure', 'website', '07 Nov 2019');
+(1, 'TRAA ', 'website', '01 Dec 2019'),
+(2, 'Home Secure', 'website', '07 Nov 2019'),
+(3, 'Bootcamp', 'website', '02 Oct 2019'),
+(4, 'Royal Chickenix', 'Brand Visual Identity System', '17 July 2017'),
+(5, 'AiLi advertising', 'Creative poster', '15 Jan 2017'),
+(6, 'Wufushun marketing', 'Video', '04 Jan 2016');
+
+
 
 --
 -- Indexes for dumped tables
